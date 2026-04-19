@@ -15,8 +15,16 @@ This project is an advanced radar detection system using ESP32, IR/ultrasonic se
 - IR/Ultrasonic Sensor (HC-SR04)  
 - Servo Motor  
 - Buzzer  
-- Power Supply  
+- Power Supply
+   
+## 🛠️ Technologies Used
+- ESP32 (WiFi-enabled microcontroller)
+- Ultrasonic Sensor (HC-SR04)
+- Servo Motor
+- Embedded C (Arduino IDE)
+- Web Interface (HTML/CSS/JS)
 
+  
 ## 🔹 Circuit Connections
 - TRIG → GPIO 5  
 - ECHO → GPIO 18  
@@ -27,6 +35,12 @@ This project is an advanced radar detection system using ESP32, IR/ultrasonic se
 
 ## 🔹 Working Principle
 The servo motor rotates from 0° to 180° and scans the surroundings. The ultrasonic sensor measures the distance of objects in its path. This data is sent to a web interface via ESP32 WiFi, where a radar-like display is generated in real time. If an object is detected within a certain range, a buzzer alert is triggered.
+
+## 🎯 Key Learning
+- Sensor interfacing with ESP32
+- PWM control for servo motor
+- Real-time data processing
+- Web-based IoT visualization
 
 ## ⚠️ Safety Note
 Ensure proper voltage levels for ESP32 (3.3V logic). Avoid directly connecting 5V signals to GPIO pins.
