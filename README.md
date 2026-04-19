@@ -1,5 +1,5 @@
 # 📡 ESP32 Radar Detection System
-🚀 An IoT-based real-time radar system using ESP32 for object detection and visualization.
+ An IoT-based real-time radar system using ESP32 for object detection and visualization.
 
 ## 🔹 Overview
 This project is an advanced radar detection system using ESP32, IR/ultrasonic sensor (HC-SR04), and a servo motor. It performs real-time 180° area scanning and visualizes detected objects on a web-based radar interface.
