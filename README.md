@@ -22,7 +22,8 @@ This project is an advanced radar detection system using ESP32, IR/ultrasonic se
 - Ultrasonic Sensor (HC-SR04)
 - Servo Motor
 - Embedded C (Arduino IDE)
-- Web Interface (HTML/CSS/JS)
+- Web Interface (HTML, CSS, JavaScript)
+
 
   
 ## 🔹 Circuit Connections
@@ -59,10 +60,10 @@ The code provided in this repository is the actual working implementation of the
 The code included in the project report is a simplified/earlier version and may not fully represent the final working system.
 
 ## 🌐 How to Use
-1. Upload code to ESP32  
-2. Connect to WiFi: **ESP32-Radar**  
-3. Open browser and go to: **192.168.4.1**  
-4. View live radar scanning  
+1. Upload the code to ESP32 using Arduino IDE  
+2. Connect to WiFi network: ESP32-Radar  
+3. Open browser and go to: http://192.168.4.1  
+4. View real-time radar scanning interface
 
 ## 📄 Project Report
 [Download PDF](project_report.pdf)
