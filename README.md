@@ -40,6 +40,10 @@ Ensure proper voltage levels for ESP32 (3.3V logic). Avoid directly connecting 5
 ## 💻 Code
 The code is available in: `radar_system.ino`
 
+⚠️ Note:
+The code provided in this repository is the actual working implementation of the project.
+The code included in the project report is a simplified/earlier version and may not fully represent the final working system.
+
 ## 🌐 How to Use
 1. Upload code to ESP32  
 2. Connect to WiFi: **ESP32-Radar**  
@@ -50,7 +54,7 @@ The code is available in: `radar_system.ino`
 [Download PDF](project_report.pdf)
 
 ## 🎥 Demo
-[▶️ Watch Demo Video](your_video_link_here)
+[▶️ Watch Demo Video](https://www.linkedin.com/posts/kushwahapawan527_radarsystem-esp32-iotprojects-ugcPost-7402982430950723584-iHJr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDvl2kB6PRtyj4xUWG4RrN098KB23CkRwY)
 
 ## 🚀 Future Improvements
 - Mobile app integration  
