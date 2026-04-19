@@ -35,7 +35,7 @@ Ensure proper voltage levels for ESP32 (3.3V logic). Avoid directly connecting 5
 ![Circuit Diagram](circuit_diagram.png)
 
 ## 📷 Project Model
-![Project Model](project_model.jpg)
+![Project Model](project_model.jpeg)
 
 ## 💻 Code
 The code is available in: `radar_system.ino`
