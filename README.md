@@ -53,6 +53,11 @@ Ensure proper voltage levels for ESP32 (3.3V logic). Avoid directly connecting 5
 ## 📷 Project Model
 ![Project Model](project_model.jpeg)
 
+## 📊 Radar Visualization (Live Output)
+The system generates a real-time radar display using ESP32's web interface.  
+Detected objects are visualized as points based on angle and distance.
+![Radar Output](radar_output.jpeg)
+
 ## 💻 Code
 The code is available in: `radar_system.ino`
 
