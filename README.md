@@ -1,4 +1,5 @@
 # 📡 ESP32 Radar Detection System
+🚀 An IoT-based real-time radar system using ESP32 for object detection and visualization.
 
 ## 🔹 Overview
 This project is an advanced radar detection system using ESP32, IR/ultrasonic sensor (HC-SR04), and a servo motor. It performs real-time 180° area scanning and visualizes detected objects on a web-based radar interface.
@@ -19,7 +20,7 @@ This project is an advanced radar detection system using ESP32, IR/ultrasonic se
    
 ## 🛠️ Technologies Used
 - ESP32 (WiFi-enabled microcontroller)
-- Ultrasonic Sensor (HC-SR04)
+- IR/Ultrasonic Sensor (HC-SR04)
 - Servo Motor
 - Embedded C (Arduino IDE)
 - Web Interface (HTML, CSS, JavaScript)
@@ -35,7 +36,7 @@ This project is an advanced radar detection system using ESP32, IR/ultrasonic se
 - GND → GND  
 
 ## 🔹 Working Principle
-The servo motor rotates from 0° to 180° and scans the surroundings. The ultrasonic sensor measures the distance of objects in its path. This data is sent to a web interface via ESP32 WiFi, where a radar-like display is generated in real time. If an object is detected within a certain range, a buzzer alert is triggered.
+The servo motor rotates from 0° to 180° and scans the surroundings. The IR/ultrasonic sensor measures the distance of objects in its path. This data is sent to a web interface via ESP32 WiFi, where a radar-like display is generated in real time. If an object is detected within a certain range, a buzzer alert is triggered.
 
 ## 🎯 Key Learning
 - Sensor interfacing with ESP32
@@ -62,7 +63,7 @@ The code included in the project report is a simplified/earlier version and may 
 ## 🌐 How to Use
 1. Upload the code to ESP32 using Arduino IDE  
 2. Connect to WiFi network: ESP32-Radar  
-3. Open browser and go to: http://192.168.4.1  
+3. Open browser and go to: [http://192.168.4.1](http://192.168.4.1)  
 4. View real-time radar scanning interface
 
 ## 📄 Project Report
